@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  exchangerates:
+    image: exchangerates
+    build:
+      context: .
+      dockerfile: ExchangeRates\Dockerfile
